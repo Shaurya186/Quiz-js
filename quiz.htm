@@ -1,0 +1,96 @@
+<html>
+    <head><title>
+        quiz
+    </title></head>
+    <link rel="stylesheet" href="D:\quiz\quiz.css"
+    <body>
+  
+        
+              <div class="tikki">
+                  <p class="question">1. India national </p>
+    
+                <ul>
+                <input class="answer" type="radio" name="q1" value="1">
+                <label id="correctString1">The constitution</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>Bharat ko jano</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>bristish raj to sresth India</label>
+                <br>
+                <input class="answer" type="radio" name="q1" value="0">
+                <label>none of these</label>
+                </ul>
+              </div>
+              <div class="tiko">
+                  <p class="question">2. first person to go on sun</p>
+    
+                <ul>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>neil armstrong</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="1">
+                <label id="correctString2">sunita williams</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label>none of these</label>
+                <br>
+                <input class="answer" type="radio" name="q2" value="0">
+                <label> sapna sairam</label>
+                </ul>
+              </div>
+              <div class="tikon">
+                  <p class="question">3. smartest person in world</p>
+    
+                <ul>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>albert einestein</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="1">
+                <label id="correctString3">shaurya</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>alva edison</label>
+                <br>
+                <input class="answer" type="radio" name="q3" value="0">
+                <label>papa(kaddu)</label>
+                </ul>
+            </div>
+              <div class="tikoni">
+                  <p class="question">4.fattest person in world</p>
+    
+                <ul>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>none of these</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="1">
+                <label id="correctString4">papa(kaddu)</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>you</label>
+                <br>
+                <input class="answer" type="radio" name="q4" value="0">
+                <label>papa tummy</label>
+                </ul>
+              </div>
+    <br/>
+      <div class="submitter">
+              <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+              type="submit" value="Submit" />
+        </div>
+      
+    <!--show only wrong answers on submit-->
+        <div class="quizAnswers" id="correctAnswer1"></div>
+            <div class="quizAnswers" id="correctAnswer2"></div>
+        <div class="quizAnswers" id="correctAnswer3"></div>
+        <div class="quizAnswers" id="correctAnswer4"></div>
+    
+    <!--show score upon submit-->
+        <div>
+            <h2 class="quizScore" id="userScore"></h2>
+        </div>
+        </div>
+<script src="D:\quiz\quiz.js"></script>
+    </body>
+</html>

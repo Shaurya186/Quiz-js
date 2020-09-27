@@ -1,0 +1,32 @@
+.question{
+ font-size: 40px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+div.tikki{
+margin-left: 30px;
+font-size: 20px;
+color: white;
+}
+.tiko{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.tikon{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+.tikoni{
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+input{
+background-color: transparent;
+
+}
+body{
+background-image: linear-gradient(rgb(77, 64, 80) ,rgb(59, 104, 63));
+}
